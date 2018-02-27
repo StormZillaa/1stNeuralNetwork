@@ -75,8 +75,8 @@ void readText(int pos) {
 	char16_t hold = ' ';
 	vector<char> readin;
 	//puts latest line in the readin array
-	while (readin[-1] = !NULL) {
-		while (readin[-1] = !'/n') {
+	while (readin[-1] != NULL) {
+		while (readin[-1] != '/n') {
 			file1.get(readin[x]);
 			x++;
 		}
